@@ -6,7 +6,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class PostUsers {
+public class PostUsersTest {
     private static final String BASE_URL = "https://reqres.in/api";
 
     @BeforeClass
